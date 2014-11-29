@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UsageID</key>
+	<string>A</string>
+	<key>UsageCode</key>
+	<string>B</string>
+	<key>WebServiceURL</key>
+	<string>http://test.com</string>
+	<key>WebService_Observer</key>
+	<string>/WebService.asmx/SaveObserver</string>
+	<key>WebService_ObservationInformation</key>
+	<string>/WebService.asmx/SaveObservationInformation</string>
+	<key>WebService_PostObservationAnswers</key>
+	<string>/WebService.asmx/SavePostObservationQuestionAnswers</string>
+	<key>WebService_ObservationBackgrounds</key>
+	<string>/WebService.asmx/SaveBackground</string>
+	<key>WebService_PostObservationQuestions</key>
+	<string></string>
+	<key>NetworkConnectURL</key>
+	<string>www.google.com</string>
+</dict>
+</plist>

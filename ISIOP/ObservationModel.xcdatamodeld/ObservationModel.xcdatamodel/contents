@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ObservationBackgrounds" representedClassName="ObservationBackgrounds" syncable="YES">
+        <attribute name="classEndTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classStartTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endingNumFemales" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="endingNumMales" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastEdit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observationDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="obtainedArtifactsCopy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startingNumFemales" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="startingNumMales" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="useInstructionalArtifiacts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ObservationInformation" representedClassName="ObservationInformation" syncable="YES">
+        <attribute name="acknowledge" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="apply" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="classActivityCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classOrganizationCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="correct" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dataSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="directions" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="explain" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="facts" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="foreshadow" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="giveInfo" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="itinerary" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastEdit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lessonEventName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meta" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="newAndOld" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="praise" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="procedural" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="reflect" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rephrase" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="situate" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="solicit" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="studentDisengagementCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suggest" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="summarize" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="thinkAloud" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ObservationSequences" syncable="YES">
+        <attribute name="observationIDSequence" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userIDSequence" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Observers" representedClassName="Observers" syncable="YES">
+        <attribute name="dataSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastEdit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PostObservationQuestions" representedClassName="PostObservationQuestions" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="poqID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="poqType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="questionType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PostObservations" representedClassName="PostObservations" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dataSync" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateAdded" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastEdit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="poqID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="poqType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subSectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ObservationBackgrounds" positionX="0" positionY="0" width="128" height="300"/>
+        <element name="ObservationInformation" positionX="0" positionY="0" width="128" height="495"/>
+        <element name="ObservationSequences" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Observers" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="PostObservationQuestions" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="PostObservations" positionX="0" positionY="0" width="128" height="195"/>
+    </elements>
+</model>
